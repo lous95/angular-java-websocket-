@@ -1,0 +1,22 @@
+.box {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 20px;
+  position:relative;
+}
+
+.vote_number{
+  color: rgb(19, 1, 31);
+  z-index: 1;
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+
+.vote-bar{
+  height: 25px;
+  background-color: #42ecf5;
+  position:absolute;
+  bottom:0;
+  left:0;
+}

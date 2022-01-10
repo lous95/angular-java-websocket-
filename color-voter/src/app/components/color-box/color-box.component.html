@@ -1,0 +1,8 @@
+<div class="box" [ngStyle]="getBoxColor(color.color)" (click)="add(color)">
+  <div class="vote_number" >
+    {{color.votes}}
+  </div>
+
+  <div class="vote-bar" [ngStyle]="getBarWidth(color.votes)">
+  </div>
+</div>
